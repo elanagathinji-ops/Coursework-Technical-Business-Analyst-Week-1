@@ -1,0 +1,15 @@
+| **rank** | **opportunity_id** | **opportunity_name**                | **total_benefit** | **net_benefit** | **roi_percent** | **payback_months** | **effort_score** | **confidence_level** | **recommendation_note**                                                                                                       |
+| -------: | ------------------ | ----------------------------------- | ----------------: | --------------: | --------------: | -----------------: | ---------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+|    **1** | **OPT-04**         | Automated Case Update (Status Sync) |          £685,000 |        £640,000 |         1422.2% |               0.79 | Low              | High                 | Ranked #1 anchor project; eliminates £500k spreadsheet loss (**SN-096**) and 8,333 hrs re-keying labor; critical for Phase 1. |
+|    **2** | **OPT-03**         | Automated Missed Payment Reminders  |          £361,500 |        £316,500 |          703.3% |               1.49 | Low              | Medium               | Enforces PTP SLAs and stops 20% shift hand-off drop-off; fold into core portal notification engine.                           |
+|    **3** | **OPT-01**         | Automated Account Triage            |          £290,000 |        £245,000 |          544.4% |               1.86 | Low              | High                 | Foundational dual-track intake engine; routes simple cases to portal while protecting specialist bandwidth.                   |
+|    **4** | **OPT-02**         | Automated Self-Service Repayment    |          £430,000 |        £345,000 |          405.9% |               1.26 | Medium           | Medium               | Core customer-facing portal journey; unlocks primary capacity savings and £320k recovery uplift.                              |
+|    **5** | **OPT-05**         | Automated Payment Confirmations     |          £110,500 |         £65,500 |          145.6% |               4.89 | Low              | High                 | Defer standalone project build; integrate receipt generation directly into OPT-02 portal transaction flow.                    |
+
+
+Legacy Trust Bank should focus Phase 1 on three core projects:
+1. Fix Data & Status Sync (OPT-04): Stop forcing staff to copy-paste data between the main database and spreadsheets. Automatically updating account statuses fixes £500,000 in yearly accounting errors, reclaims staff time, and delivers £640,000 in net savings. 
+2. Build the Customer Portal (OPT-02): Give customers a secure online page to check their balance and set up monthly payment plans 24/7. This cuts phone queue clutter and generates £345,000 in net value.
+3. Automate Account Sorting (OPT-01): Automatically route simple accounts to the self-service portal, while making sure hardship and complex cases go straight to human specialists (£245,500 net value).
+
+

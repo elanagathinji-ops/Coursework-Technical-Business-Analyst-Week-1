@@ -65,11 +65,3 @@ For each of your top 3 JTBDs, write:
 
 **JTBD-02** (Customer sees balance and options) matters now because customers don't understand what they owe or that they can pay online, causing them to call back repeatedly for the same clarification. Evidence: E13 shows customers call three times for clarification; E15 confirms that visibility drives voluntary payment. **Phase 1 implication:** The portal's first screen must show a clear, current balance and all available payment arrangements in plain language, with no hidden complexity. This is the primary reason a customer would use self-service. 
 
-
-
-## Quality check
-
-Ask yourself:
-- Does this describe a need instead of a feature?
-- Would the job still exist if the screen or tool changed?
-- Can I point to real evidence behind the priority?

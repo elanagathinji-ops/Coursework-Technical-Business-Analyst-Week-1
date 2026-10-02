@@ -1,0 +1,40 @@
+Opportunity,,,,
+OPT-01,Target Accounts,"100,000",accounts,All incoming accounts sorted
+OPT-01,Manual Sorting Time Saved,3,mins/account,Time saved per account intake
+OPT-01,Annual Hours Saved,"5,000.00",hours,"(100,000 * 3) / 60"
+OPT-01,Hard Cost Savings,"110,000.00",GBP,"5,000 hrs * £22"
+OPT-01,Recovery Uplift Factor,0.50%,ratio,Fast-tracking straightforward cases
+OPT-01,Recovery Uplift Value,"180,000.00",GBP,0.5% applied to straightforward portfolio yield (£36.48M)
+OPT-01,Total Benefit,"290,000.00",GBP,Hard Savings + Uplift
+OPT-01,Implementation Cost,"45,000.00",GBP,Low complexity build
+OPT-02,Target Accounts,"38,000",accounts,Straightforward portal-eligible
+OPT-02,Agent Time Saved,8,mins/account,Handling time drops from 18 to 10 mins
+OPT-02,Annual Hours Saved,"5,066.67",hours,"(38,000 * 8) / 60"
+OPT-02,Hard Cost Savings,"110,000.00",GBP,"5,000 hrs * £22"
+OPT-02,Recovery Uplift Factor,4.00%,ratio,Improved plan selection & friction reduction
+OPT-02,Recovery Uplift Value,"320,000.00",GBP,4% applied to monthly baseline (£8M)
+OPT-02,Total Benefit,"430,000.00",GBP,Hard Savings + Uplift
+OPT-02,Implementation Cost,"85,000.00",GBP,Medium complexity build
+OPT-03,Target Accounts,"14,000",accounts,Missed follow-up volume
+OPT-03,Chasing Time Saved,5,mins/account,Manual reminder dispatch saved
+OPT-03,Annual Hours Saved,"1,166.67",hours,"(14,000 * 5) / 60"
+OPT-03,Hard Cost Savings,"26,500.00",GBP,"1,166.67 hrs * £22"
+OPT-03,Recovery Uplift Factor,2.50%,ratio,Promise capture yield boost
+OPT-03,Recovery Uplift Value,"335,000.00",GBP,2.5% applied to missed follow-up portfolio
+OPT-03,Total Benefit,"361,500.00",GBP,Hard Savings + Uplift
+OPT-03,Implementation Cost,"45,000.00",GBP,Low complexity build
+OPT-04,Target Accounts,"100,000",accounts,All accounts requiring status updates
+OPT-04,Re-keying Time Saved,5,mins/account,Manual spreadsheet re-entry saved
+OPT-04,Annual Hours Saved,"8,333.33",hours,"(100,000 * 5) / 60"
+OPT-04,Hard Cost Savings,"185,000.00",GBP,"8,333.33 hrs * £22"
+OPT-04,Recovery Uplift Value,"500,000.00",GBP,Direct elimination of spreadsheet loss (SN-096)
+OPT-04,Total Benefit,"685,000.00",GBP,Hard Savings + Uplift
+OPT-04,Implementation Cost,"45,000.00",GBP,Low complexity build
+OPT-05,Avoided Call Volume,"20,000",calls,Repeat balance/payment inquiries
+OPT-05,Call Time Saved,2,mins/call,Clarification handle time
+OPT-05,Annual Hours Saved,666.67,hours,"(20,000 * 2) / 60"
+OPT-05,Hard Cost Savings,"14,500.00",GBP,666.67 hrs * £22
+OPT-05,Recovery Uplift Factor,0.10%,ratio,Complaint and dispute risk reduction
+OPT-05,Recovery Uplift Value,"96,000.00",GBP,0.1% applied to £96M annual baseline
+OPT-05,Total Benefit,"110,500.00",GBP,Hard Savings + Uplift
+OPT-05,Implementation Cost,"45,000.00",GBP,Low complexity build
