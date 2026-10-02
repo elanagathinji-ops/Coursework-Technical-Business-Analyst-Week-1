@@ -22,13 +22,14 @@ Customers are an external user group inferred from the case study; their needs a
 
 | Customers (external) | Clear next steps and less repetitive contact | Validate completion of eligible self-service journeys and repeat-contact rates | Incorrect information or unsuitable options for cases needing human help | Customer research, usability tests, and contact-journey data; needs are not yet validated |
 
-If the two-week window gets tight, protect analysis task 4 and discovery questions 7 and 10 first — these feed the ROI case and the eligibility rules that Daniel Okoye and Amina will use for the Phase 1 go/no-go.
+Priya says: If the two-week window gets tight, protect analysis task 4 and discovery questions 7 and 10 first as these feed the ROI case and the eligibility rules that Daniel Okoye and Amina will use for the Phase 1 go/no-go.
 
 ## 3.1 Discovery Analysis Tasks
 1. What share of activity records have duplicate_check_flag = Y (2,020 of 9,890 in a first pass), by activity_type and account_id? 
 2. Using account_id, activity_date, and activity_type, how often does an account receive more than one outbound activity on the same day or within a week? 
 3. What share of activity records have no next_follow_up_date (1,465 of 9,890), and what is the typical scheduled gap when one exists? 
 4. What are the average and total logged minutes_spent per account and per activity type, and which activity types make up the highest volume, cross-referenced against delinquent_accounts_export.csv (3,246 accounts; product_type, delinquency_stage, days_past_due) to see which account segments carry that volume? 
+
 ## 3.2 Discovery questions
 
 Answerable from finance_assumptions.csv, confirmed with Finance:
@@ -57,10 +58,10 @@ This first-pass chain distinguishes reported concerns from measures that still n
 
 | Concern and source | Process area | Opportunity / JTBD to validate | Measure and evidence source | Linked deliverable |
 |---|---|---|---|
-Representatives report repeated checks across spreadsheets and email (case study; quantify in discovery) | Contact-history checks, status updates, and task allocation | Help representatives see reliable contact history and next actions | Time sampled on reconciliation; duplicate-check rate; case and system audit | As-Is map, JTBD, and ranked automation opportunity |
-Follow-ups and promises to pay are difficult to track consistently (case study; baseline not supplied) | Promise tracking and follow-up scheduling | Identify eligible reminders or task prompts without automating judgement-heavy cases | Missed-follow-up and promise tracking rates; promise records and case audit | As-Is pain points, To-Be workflow, and baseline metrics |
-Human ownership at exceptions must remain clear (Gareth's stakeholder concern) | Eligibility, triage, and representative hand-off | Route exceptions with context and explicit ownership | Escalation and repeat-contact rates; walkthroughs of representative cases | To-Be workflow and linked candidate requirements |
-The 15% revenue-loss estimate needs substantiation (Daniel's concern) | Recovery outcomes and operating costs | Test operational savings separately from possible recovery uplift | Definition and source of 15% estimate; cost, volume, and recovery baselines | ROI model with assumptions, sensitivity analysis, and evidence status |
+| Representatives report repeated checks across spreadsheets and email (case study; quantify in discovery) | Contact-history checks, status updates, and task allocation | Help representatives see reliable contact history and next actions | Time sampled on reconciliation; duplicate-check rate; case and system audit | As-Is map, JTBD, and ranked automation opportunity |
+| Follow-ups and promises to pay are difficult to track consistently (case study; baseline not supplied) | Promise tracking and follow-up scheduling | Identify eligible reminders or task prompts without automating judgement-heavy cases | Missed-follow-up and promise tracking rates; promise records and case audit | As-Is pain points, To-Be workflow, and baseline metrics |
+| Human ownership at exceptions must remain clear (Gareth's stakeholder concern) | Eligibility, triage, and representative hand-off | Route exceptions with context and explicit ownership | Escalation and repeat-contact rates; walkthroughs of representative cases | To-Be workflow and linked candidate requirements |
+|The 15% revenue-loss estimate needs substantiation (Daniel's concern) | Recovery outcomes and operating costs | Test operational savings separately from possible recovery uplift | Definition and source of 15% estimate; cost, volume, and recovery baselines | ROI model with assumptions, sensitivity analysis, and evidence status |
 
 ## 5. Final problem statement
 

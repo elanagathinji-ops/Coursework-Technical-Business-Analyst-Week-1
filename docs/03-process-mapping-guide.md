@@ -31,7 +31,7 @@ Mark at least five directly on the map:
 - spreadsheet version or ownership conflict
 - missed next action due to manual tracking
 - repeated customer contact attempts
-- poor visibility of promise-to-pay fulfilment
+- poor visibility of promise-to-pay fulfillment
 - manager reporting based on reconciliation rather than live status
 
 ## Self-service suitability test
@@ -49,9 +49,4 @@ A step is a better Phase 1 candidate if it is:
 - judgment-heavy
 - dependent on negotiation or exception handling
 
-## Deliverables to produce from the map
 
-- As-Is process map
-- pain-point overlay
-- short current-state summary
-- first-pass automation candidate list
