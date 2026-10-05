@@ -12,4 +12,7 @@ Legacy Trust Bank should focus Phase 1 on three core projects:
 2. Build the Customer Portal (OPT-02): Give customers a secure online page to check their balance and set up monthly payment plans 24/7. This cuts phone queue clutter and generates £345,000 in net value.
 3. Automate Account Sorting (OPT-01): Automatically route simple accounts to the self-service portal, while making sure hardship and complex cases go straight to human specialists (£245,500 net value).
 
+What to Defer:
+Do not spend money building separate projects for Payment Confirmations (OPT-05) or Missed Payment Reminders (OPT-03). Instead, simply include email receipts and text reminders as standard features inside the main customer portal.
+
 

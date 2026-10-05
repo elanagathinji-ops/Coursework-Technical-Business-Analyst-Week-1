@@ -43,25 +43,28 @@ E23 | Gareth Evans & Ms Andrea Lamb (Senior Team Leader / Representative) | "Lea
 
 
 ## JTBD table
-
+ 
 | JTBD ID | Actor | Statement | Evidence link | Portal relevance | Priority |
 |---|---|---|---|---|---|
-| JTBD-01 | Representative | When I'm about to contact a customer, I want to see a single, up-to-date record of promised callbacks across every channel, so that I don't waste calls re-contacting someone who's already been handled and risk breaching a promise made through another channel. | E01 | High — a unified promise/contact view is a core self-service and representative-workflow requirement for Phase 1. | High |
-| JTBD-02 | Customer | When I'm trying to deal with my debt, I want to see exactly what I owe and what repayment options are available to me, so that I can confidently choose an arrangement I can afford and start paying without needing to call. | E15 | High — clear balance and option visibility is the core self-service value proposition of the portal and a direct driver of voluntary payment. | High |
-| JTBD-03 | Finance Analyst | When I'm assessing recovery performance, I want current, near-real-time operational numbers instead of a delayed reporting cycle, so that I can intervene on degrading accounts while there's still time to act, rather than reacting to stale data. | E17 | High — timely operational data is a prerequisite for the ROI case and ongoing performance monitoring. | Medium |
-| JTBD-04 | Finance & Compliance Director | When a case status changes in the collections system, I want that update to flow through to the spreadsheet/reporting record without manual re-entry, so that I can trust reconciled figures and avoid administrative overhead and data-entry error across 50+ staff. | E02 | High — automated status propagation removes a core duplicated-work pain point and underpins reliable reconciliation. | High |
-| JTBD-05 | Senior Collections Team Leader | When a new case enters recovery, I want to quickly distinguish straightforward cases from those needing specialist handling, so that simple work is fast-tracked while complex or regulated scenarios are routed to the right experts without delay. | E08 | High — eligibility triage is foundational to safe self-service and prevents specialist queues from blocking recoverable low-complexity cases. | Critical |
-| JTBD-06 | Customer | When my account is passed to another team or department, I want the person I speak to next to already understand my situation, so that I don't have to repeat my whole story and can reach a resolution faster. | E12 | High — a shared case context that moves with the customer underpins portal-to-representative hand-offs and reduces repeat explanations. | High |
+| JTBD-01 | Representative | When I'm about to contact a customer, I want to see a single, up-to-date record of promised callbacks and prior touches across every channel, so that I don't waste calls re-contacting someone who's already been handled and risk breaching a promise made through another channel. | E01 | High — a unified promise/contact view is a core self-service and representative-workflow requirement for Phase 1. | Critical |
+| JTBD-02 | Customer (Unvalidated) | When I'm trying to deal with my debt, I want to see exactly what I owe and what repayment options are available to me, so that I can confidently choose an arrangement I can afford and start paying without needing to call. | E13 | High — clear balance and option visibility is the core self-service value proposition of the portal and a direct driver of voluntary payment. | Critical |
+| JTBD-03 | Finance Analyst | When I'm assessing recovery performance, I want current, near-real-time operational numbers instead of a delayed reporting cycle, so that I can forecast portfolio yield based on trustable data rather than reacting to stale data. | E17 | High — timely operational data is a prerequisite for the ROI case and ongoing performance monitoring. | Medium |
+| JTBD-04 | Representative | When an account state changes in the system, I want the updated status to flag centrally without manual spreadsheet re-entry, so that I don't spend hours on administrative re-keying across multiple sheets. | E02 | High — automated status propagation removes a core duplicated-work pain point (scoped as a CSV/event log export option for Phase 1 MVP). | High |
+| JTBD-05 | Senior Collections Team Leader | When a new case enters recovery, I want to quickly distinguish straightforward cases from those needing specialist handling using a simple decision table, so that simple work is fast-tracked while complex scenarios are routed to experts without delay. | E08 | High — eligibility triage via a simple decision table is foundational to safe self-service and prevents specialist queues from blocking recoverable low-complexity cases. | Critical |
+| JTBD-06 | Customer (Unvalidated) | When my account is passed to another team or department, I want the person I speak to next to already understand my situation and portal history, so that I don't have to repeat my whole story and can reach a resolution faster. | E12 | High — a shared case context that moves with the customer underpins portal-to-representative hand-offs and reduces repeat explanations. | High |
+
 ## Step 4: Top 3 justification
 
-For each of your top 3 JTBDs, write:
-- why it matters now
-- which evidence supports it
-- how it should influence Phase 1
 
-**JTBD-05** (Triage straightforward vs specialist cases) matters now because simple cases get queued behind complex ones with no priority logic, artificially extending resolution time and wasting representative capacity on routing work instead of collection work. Evidence: E08 directly states this problem; additionally E07 notes simple cases take days when they should take minutes. **Phase 1 implication:** Design an intake questionnaire or rules engine that classifies cases as self-service eligible, representative-led, or specialist-only at entry. This unblocks the rest of the portal value.
+#1: JTBD-01 — Representative Unified Promise & Contact View
 
-**JTBD-04** (Automated status propagation) matters now because every status update in the legacy database requires manual re-keying into the spreadsheet, multiplying overhead across 50+ staff and introducing reconciliation failures every month. Evidence: E02 identifies the root cause; E17 shows the downstream impact on reporting timeliness. **Phase 1 implication:** Build a direct integration between the new portal/system and the existing reporting layer so status changes flow automatically. This removes duplicated work and restores trust in numbers.
+This is a priority because staff currently spend a lot of time checking different systems to understand a customer's previous contact and promised follow-ups. This can lead to missed callbacks and customers being contacted unnecessarily. A single view of customer interactions would make it easier for staff to see what has already happened and what needs to happen next.
 
-**JTBD-02** (Customer sees balance and options) matters now because customers don't understand what they owe or that they can pay online, causing them to call back repeatedly for the same clarification. Evidence: E13 shows customers call three times for clarification; E15 confirms that visibility drives voluntary payment. **Phase 1 implication:** The portal's first screen must show a clear, current balance and all available payment arrangements in plain language, with no hidden complexity. This is the primary reason a customer would use self-service. 
+#2: JTBD-02 — Customer Balance & Repayment Option Visibility
+
+Customers often need to contact staff multiple times to confirm how much they owe or how they can repay. This creates extra work for staff and slows down payments. Giving customers a clear view of their balance and available repayment options through the portal would allow more customers to resolve their account themselves.
+
+#3: JTBD-05 — Workload Triage via Eligibility Decision Table
+
+Straightforward cases are currently mixed with more complex cases, meaning simple issues can take much longer to resolve. A simple triage process would identify which cases can be handled quickly through self-service and which need specialist support. This would reduce delays and allow staff to focus their time on more complex cases.
 
